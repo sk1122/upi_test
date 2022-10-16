@@ -28,7 +28,8 @@ const Home = () => {
         'client_secret': 'gC7N3S0KGhNE3x9ToEqAlZOw5bp2Rq4P', 
         'module_secret': 'ZoqvXD0cltCxnuB1DaBkwaB1c8xnPqgI', 
         'provider_secret': 'HRJaexZmROg4sPHUIrDpVM0lH8ALTCFx', 
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*'
       },
       data : data
     };
